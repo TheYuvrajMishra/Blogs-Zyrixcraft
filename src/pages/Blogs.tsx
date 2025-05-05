@@ -4,6 +4,7 @@ import GradiantLine from "../components/GradiantLine";
 import FeaturedBlog from "../components/FeaturedBlog";
 import BlogCard from "../components/BlogCard";
 import Subscribe from "../components/Subscribe";
+import NoiseOverlay from "../components/NoiseOverlay";
 function blogs() {
   const posts = [
     {
@@ -64,6 +65,7 @@ function blogs() {
   ];
   return (
     <div className="bg-black">
+      <NoiseOverlay/>
       <BlogHero />
       <div className="flex">
         <GradiantLine />
@@ -85,7 +87,7 @@ function blogs() {
       <div className="flex mt-20">
         <GradiantLine />
         <div className="h-6 w-35 bg-white/20 text-center text-[13px] text-white/80 rounded-full">
-          <p className="mt-[3px]">⬡ Featured Article</p>
+          <p className="mt-[3px]">⬡ More Articles</p>
         </div>
         <GradiantLine />
       </div>

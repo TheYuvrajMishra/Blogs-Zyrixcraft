@@ -23,10 +23,10 @@ const BlogCard: React.FC<BlogCardProps> = ({
   author,
 }) => {
   return (
-    <div className="relative mt-10 bg-zinc-900 brightness-100 md:brightness-50 hover:brightness-90 rounded-xl overflow-hidden shadow-md hover:shadow-lg shadow-white/10 transition-all duration-300 w-full max-w-sm border border-white/10 hover:bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.1),_transparent)]">
+    <div className="relative mt-10 bg-zinc-900 brightness-100 md:brightness-50 hover:brightness-90 rounded-md overflow-hidden shadow-md hover:shadow-lg shadow-white/10 transition-all duration-300 w-full max-w-sm border border-white/10 hover:bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.1),_transparent)]">
       {/* Image */}
       <div className="relative h-48 w-full overflow-hidden">
-        <img src={image} alt={title} className="w-full h-full object-cover" />
+        <img src={image} alt={title} className="w-full h-full object-cover grayscale-50" />
         <span className="absolute top-2 right-2 bg-black/10 text-white text-xs px-3 py-1 rounded-full backdrop-blur-sm">
           {category}
         </span>
