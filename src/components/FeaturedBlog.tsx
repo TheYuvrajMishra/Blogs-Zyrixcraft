@@ -24,7 +24,7 @@ const Card: React.FC<CardProps> = ({
   // featured, // Not used in component rendering
 }) => {
   return (
-    <div className="mx-auto mt-10 flex flex-col brightness-60 hover:brightness-90 md:flex-row bg-black text-white rounded-xl overflow-hidden border border-white/10 w-4/5 shadow-lg hover:shadow-xl transition-all duration-300 group relative z-10">
+    <div className="mx-auto FeaturedBlog mt-10 flex flex-col brightness-60 hover:brightness-90 md:flex-row bg-black text-white rounded-xl overflow-hidden border border-white/10 w-4/5 shadow-lg hover:shadow-xl transition-all duration-300 group relative z-10">
       <div className="md:w-1/2">
         <img
           src={image}
