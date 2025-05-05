@@ -10,77 +10,85 @@ import GlowingMouseTrailer from "../components/MouseTrailer";
 function blogs() {
   const posts = [
     {
-      image:
-        "https://www.wepc.com/wp-content/uploads/2023/07/15-inch-MacBook-Air-vs-13-inch-MacBook-Air-vs-15-inch-MacBook-Air-.jpg",
-      category: "Science",
-      title: "Quantum Computing Breakthroughs",
-      description:
-        "New advancements in quantum computing that could change our technological landscape forever.",
-      tags: ["Quantum", "Computing", "Research"],
-      date: "25 April 2025",
-      readTime: "8 min",
-      author: "Sheikh Yuvraj",
+      "image": "https://www.wepc.com/wp-content/uploads/2023/07/15-inch-MacBook-Air-vs-13-inch-MacBook-Air-vs-15-inch-MacBook-Air-.jpg",
+      "category": "Technology",
+      "title": "The Psychology of Productivity",
+      "description": "How new technologies are shaping our world.",
+      "tags": [
+        "Space Exploration",
+        "Astronomy"
+      ],
+      "date": "18 October 2024",
+      "readTime": "9 min",
+      "author": "Sheikh Yuvraj"
     },
     {
-      image:
-        "https://thinkfree.com/wp-content/uploads/2024/01/thinkfree-online-office-history-1.webp",
-      category: "Science",
-      title: "Quantum Computing Breakthroughs",
-      description:
-        "New advancements in quantum computing that could change our technological landscape forever.",
-      tags: ["Quantum", "Computing", "Research"],
-      date: "25 April 2025",
-      readTime: "8 min",
-      author: "Md. Ram",
+      "image": "https://thinkfree.com/wp-content/uploads/2024/01/thinkfree-online-office-history-1.webp",
+      "category": "Space",
+      "title": "The Future of AI in Healthcare",
+      "description": "Practical tips for a better future.",
+      "tags": [
+        "AI",
+        "Healthcare",
+        "Innovation"
+      ],
+      "date": "1 December 2024",
+      "readTime": "10 min",
+      "author": "Md. Ram"
     },
     {
-      image:
-        "https://www.maketecheasier.com/assets/uploads/2024/06/keep-windows-running-with-lid-closed.jpg?width=800&height=400&aspect_ratio=2:1",
-      category: "Science",
-      title: "Quantum Computing Breakthroughs",
-      description:
-        "New advancements in quantum computing that could change our technological landscape forever.",
-      tags: ["Quantum", "Computing", "Research"],
-      date: "25 April 2025",
-      readTime: "8 min",
-      author: "Raghav Hussain",
+      "image": "https://www.maketecheasier.com/assets/uploads/2024/06/keep-windows-running-with-lid-closed.jpg?width=800&height=400&aspect_ratio=2:1",
+      "category": "Environment",
+      "title": "Renewable Energy Innovations",
+      "description": "Exploring the challenges and opportunities.",
+      "tags": [
+        "Climate Change",
+        "Environment",
+        "Research"
+      ],
+      "date": "10 May 2024",
+      "readTime": "15 min",
+      "author": "Raghav Hussain"
     },
     {
-      image:
-        "https://soeithelp.stanford.edu/sites/g/files/sbiybj26301/files/styles/card_1900x950/public/media/image/macbook_unplash_1.jpeg?h=c673cd1c&itok=t2uNNJRB",
-      category: "Science",
-      title: "Quantum Computing Breakthroughs",
-      description:
-        "New advancements in quantum computing that could change our technological landscape forever.",
-      tags: ["Quantum", "Computing", "Research"],
-      date: "25 April 2025",
-      readTime: "8 min",
-      author: "Abdul Singh",
+      "image": "https://soeithelp.stanford.edu/sites/g/files/sbiybj26301/files/styles/card_1900x950/public/media/image/macbook_unplash_1.jpeg?h=c673cd1c&itok=t2uNNJRB",
+      "category": "Health",
+      "title": "Blockchain Beyond Cryptocurrency",
+      "description": "In-depth analysis and expert opinions.",
+      "tags": [
+        "Renewable Energy",
+        "Sustainability"
+      ],
+      "date": "20 July 2024",
+      "readTime": "12 min",
+      "author": "Abdul Singh"
     },
     {
-      image:
-        "https://th.bing.com/th/id/OIP.NeMZXukPJ19BZ56z5JbvwwHaEO?rs=1&pid=ImgDetMain",
-      category: "Science",
-      title: "Quantum Computing Breakthroughs",
-      description:
-        "New advancements in quantum computing that could change our technological landscape forever.",
-      tags: ["Quantum", "Computing", "Research"],
-      date: "25 April 2025",
-      readTime: "8 min",
-      author: "OniChan Kumar",
+      "image": "https://th.bing.com/th/id/OIP.NeMZXukPJ19BZ56z5JbvwwHaEO?rs=1&pid=ImgDetMain",
+      "category": "Business",
+      "title": "Understanding Climate Change Impacts",
+      "description": "A look at the cutting-edge research.",
+      "tags": [
+        "Web Development",
+        "Programming"
+      ],
+      "date": "15 June 2024",
+      "readTime": "8 min",
+      "author": "OniChan Kumar"
     },
     {
-      image:
-        "https://www.wepc.com/wp-content/uploads/2023/07/15-inch-MacBook-Air-vs-13-inch-MacBook-Air-vs-15-inch-MacBook-Air-.jpg",
-      category: "Science",
-      title: "Quantum Computing Breakthroughs",
-      description:
-        "New advancements in quantum computing that could change our technological landscape forever.",
-      tags: ["Quantum", "Computing", "Research"],
-      date: "25 April 2025",
-      readTime: "8 min",
-      author: "walter kumar singh",
-    },
+      "image": "https://www.wepc.com/wp-content/uploads/2023/07/15-inch-MacBook-Air-vs-13-inch-MacBook-Air-vs-15-inch-MacBook-Air-.jpg",
+      "category": "Technology",
+      "title": "Exploring Deep Space",
+      "description": "Understanding the impact on society.",
+      "tags": [
+        "Cybersecurity",
+        "Privacy"
+      ],
+      "date": "12 September 2024",
+      "readTime": "5 min",
+      "author": "walter kumar singh"
+    }
   ];
   return (
     <div className="bg-black">
