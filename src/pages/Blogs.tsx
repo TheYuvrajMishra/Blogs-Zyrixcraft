@@ -5,10 +5,13 @@ import FeaturedBlog from "../components/FeaturedBlog";
 import BlogCard from "../components/BlogCard";
 import Subscribe from "../components/Subscribe";
 import NoiseOverlay from "../components/NoiseOverlay";
+import BlurBlob from "../components/BlurBlob";
+import GlowingMouseTrailer from "../components/MouseTrailer";
 function blogs() {
   const posts = [
     {
-      image: "https://picsum.photos/id/201/200/300",
+      image:
+        "https://www.wepc.com/wp-content/uploads/2023/07/15-inch-MacBook-Air-vs-13-inch-MacBook-Air-vs-15-inch-MacBook-Air-.jpg",
       category: "Science",
       title: "Quantum Computing Breakthroughs",
       description:
@@ -16,10 +19,11 @@ function blogs() {
       tags: ["Quantum", "Computing", "Research"],
       date: "25 April 2025",
       readTime: "8 min",
-      author: "Jamie Chen",
+      author: "Sheikh Yuvraj",
     },
     {
-      image: "https://picsum.photos/id/202/200",
+      image:
+        "https://thinkfree.com/wp-content/uploads/2024/01/thinkfree-online-office-history-1.webp",
       category: "Science",
       title: "Quantum Computing Breakthroughs",
       description:
@@ -27,10 +31,11 @@ function blogs() {
       tags: ["Quantum", "Computing", "Research"],
       date: "25 April 2025",
       readTime: "8 min",
-      author: "Jamie Chen",
+      author: "Md. Ram",
     },
     {
-      image: "https://picsum.photos/id/203/200",
+      image:
+        "https://www.maketecheasier.com/assets/uploads/2024/06/keep-windows-running-with-lid-closed.jpg?width=800&height=400&aspect_ratio=2:1",
       category: "Science",
       title: "Quantum Computing Breakthroughs",
       description:
@@ -38,10 +43,11 @@ function blogs() {
       tags: ["Quantum", "Computing", "Research"],
       date: "25 April 2025",
       readTime: "8 min",
-      author: "Jamie Chen",
+      author: "Raghav Hussain",
     },
     {
-      image: "https://picsum.photos/id/204/200",
+      image:
+        "https://soeithelp.stanford.edu/sites/g/files/sbiybj26301/files/styles/card_1900x950/public/media/image/macbook_unplash_1.jpeg?h=c673cd1c&itok=t2uNNJRB",
       category: "Science",
       title: "Quantum Computing Breakthroughs",
       description:
@@ -49,10 +55,11 @@ function blogs() {
       tags: ["Quantum", "Computing", "Research"],
       date: "25 April 2025",
       readTime: "8 min",
-      author: "Jamie Chen",
+      author: "Abdul Singh",
     },
     {
-      image: "https://picsum.photos/id/206/200",
+      image:
+        "https://th.bing.com/th/id/OIP.NeMZXukPJ19BZ56z5JbvwwHaEO?rs=1&pid=ImgDetMain",
       category: "Science",
       title: "Quantum Computing Breakthroughs",
       description:
@@ -60,18 +67,35 @@ function blogs() {
       tags: ["Quantum", "Computing", "Research"],
       date: "25 April 2025",
       readTime: "8 min",
-      author: "Jamie Chen",
+      author: "OniChan Kumar",
+    },
+    {
+      image:
+        "https://www.wepc.com/wp-content/uploads/2023/07/15-inch-MacBook-Air-vs-13-inch-MacBook-Air-vs-15-inch-MacBook-Air-.jpg",
+      category: "Science",
+      title: "Quantum Computing Breakthroughs",
+      description:
+        "New advancements in quantum computing that could change our technological landscape forever.",
+      tags: ["Quantum", "Computing", "Research"],
+      date: "25 April 2025",
+      readTime: "8 min",
+      author: "walter kumar singh",
     },
   ];
   return (
     <div className="bg-black">
-      <NoiseOverlay/>
+      <NoiseOverlay />
+      <GlowingMouseTrailer/>
       <BlogHero />
       <div className="flex">
         <GradiantLine />
-        <div className="h-6 w-35 bg-white/20 text-center text-[13px] text-white/80 rounded-full">
-          <p className="mt-[3px]">⬡ Featured Article</p>
+        <div className="w-fit bg-white/20 text-center whitespace-nowrap text-sm text-white/80 rounded-full px-2 py-1/2 mt-0.5">
+          <p className="mt-0">
+            {/* Removed mt-[2px] from p, added py-1 to parent */}
+          </p>
+          <p>⬡ Featured Article</p>
         </div>
+
         <GradiantLine />
       </div>
       <FeaturedBlog
@@ -86,8 +110,11 @@ function blogs() {
       />
       <div className="flex mt-20">
         <GradiantLine />
-        <div className="h-6 w-35 bg-white/20 text-center text-[13px] text-white/80 rounded-full">
-          <p className="mt-[3px]">⬡ More Articles</p>
+        <div className="w-fit bg-white/20 text-center whitespace-nowrap text-sm text-white/80 rounded-full px-2 py-1/2 mt-0.5">
+          <p className="mt-0">
+            {/* Removed mt-[2px] from p, added py-1 to parent */}
+          </p>
+          <p>⬡ More Article</p>
         </div>
         <GradiantLine />
       </div>
@@ -98,7 +125,8 @@ function blogs() {
           ))}
         </div>
       </div>
-      <Subscribe/>
+      <BlurBlob/>
+      <Subscribe />
     </div>
   );
 }

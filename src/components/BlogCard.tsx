@@ -23,10 +23,10 @@ const BlogCard: React.FC<BlogCardProps> = ({
   author,
 }) => {
   return (
-    <div className="relative mt-10 bg-zinc-900 brightness-100 md:brightness-50 hover:brightness-90 rounded-md overflow-hidden shadow-md hover:shadow-lg shadow-white/10 transition-all duration-300 w-full max-w-sm border border-white/10 hover:bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.1),_transparent)]">
+    <div className="relative mt-10 bg-white/10 brightness-75 md:brightness-75 hover:brightness-90 rounded-md overflow-hidden shadow-md hover:shadow-lg shadow-white/10 transition-all ease duration-500 w-full max-w-sm border border-white/10 hover:bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.1),_transparent)] group">
       {/* Image */}
       <div className="relative h-48 w-full overflow-hidden">
-        <img src={image} alt={title} className="w-full h-full object-cover grayscale-50" />
+        <img src={image} alt={title} className="w-full cursor-pointer transition-all ease duration-300 h-full object-cover  group-hover:scale-105" />
         <span className="absolute top-2 right-2 bg-black/10 text-white text-xs px-3 py-1 rounded-full backdrop-blur-sm">
           {category}
         </span>
@@ -45,8 +45,8 @@ const BlogCard: React.FC<BlogCardProps> = ({
           </div>
         </div>
 
-        <h3 className="text-lg font-semibold text-white">{title}</h3>
-        <p className="text-gray-400 text-sm">{description}</p>
+        <h3 className="text-lg font-semibold text-white cursor-pointer">{title}</h3>
+        <p className="text-white/50 text-sm">{description}</p>
 
         <div className="flex flex-wrap gap-2 mt-2 text-xs">
           {tags.map((tag) => (

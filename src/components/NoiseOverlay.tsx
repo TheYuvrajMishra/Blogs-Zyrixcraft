@@ -14,7 +14,7 @@ const NoiseOverlay: React.FC = () => {
         // Ensure the background repeats over the entire area
         backgroundRepeat: 'repeat',
       }}
-      className="fixed top-0 left-0 w-full h-full pointer-events-none z-[9999] opacity-[0.05]"
+      className="fixed top-0 left-0 w-full h-full pointer-events-none z-[9999] opacity-[0.075]"
       // `fixed top-0 left-0 w-full h-full`: Covers the entire viewport.
       // `pointer-events-none`: Ensures the overlay doesn't block clicks or interactions with elements below it.
       // `z-[9999]`: Sets a high z-index to make sure it's visually on top of almost everything.
