@@ -1,6 +1,6 @@
 // components/card.tsx
 import React from "react";
-import { CalendarDays, Clock, Star } from "lucide-react";
+import { CalendarDays, Clock } from "lucide-react";
 
 interface CardProps {
   image: string;
@@ -21,7 +21,6 @@ const Card: React.FC<CardProps> = ({
   date,
   readTime,
   author,
-  featured = false,
 }) => {
   return (
     <div className="mx-auto mt-10 flex flex-col brightness-60 hover:brightness-90 md:flex-row bg-black text-white rounded-xl overflow-hidden border border-white/10 w-4/5 shadow-lg hover:shadow-xl transition-all duration-300 group">
