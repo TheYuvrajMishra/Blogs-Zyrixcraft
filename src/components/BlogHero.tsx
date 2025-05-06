@@ -2,6 +2,7 @@
 import React from "react";
 import {motion} from 'framer-motion';
 import BlurBlob from "./BlurBlob";
+import LocomotiveScroll from 'locomotive-scroll';
 const categories = [
   "All Posts",
   "Technology",
@@ -23,7 +24,7 @@ const Hero: React.FC = () => {
       },
     },
   };
-
+  const locomotiveScroll = new LocomotiveScroll();
   // Variants for each individual character
   const characterVariants = {
     // Initial state (optional, could be just before animation)
@@ -52,7 +53,7 @@ const Hero: React.FC = () => {
 
   
   return (
-    <section className="flex flex-col items-center justify-center text-center py-24 text-white">
+    <section data-scroll data-scroll-speed="0.1" className="flex flex-col items-center justify-center text-center py-24 text-white">
       <BlurBlob/>
       <div className="mb-4 px-4">
         <span className="bg-white/20 text-xs uppercase px-3 py-1 rounded-full text-white tracking-wider">
