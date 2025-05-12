@@ -74,7 +74,7 @@ const Hero: React.FC = () => {
       <BlurBlob />
       <div className="mb-4 px-4">
         <span className="bg-white/20 text-xs uppercase px-3 py-1 rounded-full text-white tracking-wider">
-          ⚡ ZyrixCraft
+          ⚡ UltraViolent
         </span>
       </div>
       <h1 className="text-4xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-t from-white via-white/50 to-white">
