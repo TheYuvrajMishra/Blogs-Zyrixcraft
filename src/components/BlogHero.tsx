@@ -104,7 +104,7 @@ const Hero: React.FC = () => {
         Dive into cutting-edge insights about AI, quantum computing, and the
         future of digital innovation.
       </p>
-      <div className="mt-7 flex flex-wrap gap-3 justify-center">
+      <div className="mt-6 flex flex-wrap gap-3 justify-center">
         {categories.map((category) => (
           <button
             key={category}
