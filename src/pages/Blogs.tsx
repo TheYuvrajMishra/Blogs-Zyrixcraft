@@ -23,7 +23,7 @@ function blogs() {
       "author": "Sheikh Yuvraj"
     },
     {
-      "image": "https://thinkfree.com/wp-content/uploads/2024/01/thinkfree-online-office-history-1.webp",
+      "image": "https://w0.peakpx.com/wallpaper/448/590/HD-wallpaper-laptop-keyboard-glow-dark.jpg",
       "category": "Space",
       "title": "The Future of AI in Healthcare",
       "description": "Practical tips for a better future.",
@@ -77,7 +77,7 @@ function blogs() {
       "author": "OniChan Kumar"
     },
     {
-      "image": "https://www.wepc.com/wp-content/uploads/2023/07/15-inch-MacBook-Air-vs-13-inch-MacBook-Air-vs-15-inch-MacBook-Air-.jpg",
+      "image": "https://burst.shopifycdn.com/photos/laptop-glowing-in-the-dark.jpg?width=925&format=pjpg&exif=0&iptc=0",
       "category": "Technology",
       "title": "Exploring Deep Space",
       "description": "Understanding the impact on society.",
